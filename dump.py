@@ -6,7 +6,7 @@ totaldmp = 0
 count = 0
 try:
 	os.mkdir('Data')
-except:
+except:#
 	pass
 try:
 	os.remove('temp.txt')
